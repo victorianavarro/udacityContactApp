@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.vnf.helloandroid.MainActivity"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/photo_congratulations"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/work"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"
+ />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="650-555-5555"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.udacity.com"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"
+/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2465 Latham St, Mountain View, CA 94043"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="80dp"
+/>
+
+
+
+</LinearLayout>
+
+
+
